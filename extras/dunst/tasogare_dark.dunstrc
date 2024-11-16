@@ -1,0 +1,17 @@
+# tasogare colors for dunst
+# For more configuration options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
+
+[urgency_normal]
+    background = "#030303"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"
+
+[urgency_critical]
+    background = "#09090b"
+    foreground = "#db4b4b"
+    frame_color = "#db4b4b"

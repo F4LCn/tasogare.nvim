@@ -1,0 +1,129 @@
+[manager]
+# NOTE: can combined with tmTheme (sublime colorshceme file) for preview code highlight
+# highlight = "path/to/tmTheme"
+
+cwd = { fg = "#dddddd", italic = true }
+
+# Hovered
+hovered         = { bg = "#09090b" }
+preview_hovered = { bg = "#09090b" }
+
+# Find
+find_keyword  = { fg = "#000000", bg = "#ff9e64", bold = true }
+find_position = { fg = "#0db9d7", bg = "#0c1419", bold = true }
+
+# Marker
+marker_copied   = { fg = "#73daca", bg = "#73daca" }
+marker_cut      = { fg = "#f7768e", bg = "#f7768e" }
+marker_marked   = { fg = "#bb9af7", bg = "#bb9af7" }
+marker_selected = { fg = "#7aa2f7", bg = "#7aa2f7" }
+
+# Tab
+tab_active   = { fg = "#ffffff", bg = "#09090b" }
+tab_inactive = { fg = "#52525b", bg = "#030303" }
+tab_width    = 1
+
+# Count
+count_copied   = { fg = "#ffffff", bg = "#41a6b5" }
+count_cut      = { fg = "#ffffff", bg = "#db4b4b" }
+count_selected = { fg = "#ffffff", bg = "#3d59a1" }
+# Border
+border_symbol = "│"
+border_style  = { fg = "#b7b7b9" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#52525b", bg = "#52525b" }
+
+# Mode
+mode_normal = { fg = "#000000", bg = "#7aa2f7", bold = true }
+mode_select = { fg = "#000000", bg = "#bb9af7", bold = true }
+mode_unset  = { fg = "#000000", bg = "#9d7cd8", bold = true }
+
+# Progress
+progress_label  = { fg = "#dddddd", bold = true }
+progress_normal = { fg = "#030303" }
+progress_error  = { fg = "#f7768e" }
+
+# Permissions
+permissions_t = { fg = "#7aa2f7" }
+permissions_r = { fg = "#e0af68" }
+permissions_w = { fg = "#f7768e" }
+permissions_x = { fg = "#9ece6a" }
+permissions_s = { fg = "#010101" }
+
+[select]
+border   = { fg = "#b7b7b9" }
+active   = { fg = "#ffffff",  bg = "#303031" }
+inactive = { fg = "#ffffff" }
+
+# Input
+[input]
+border   = { fg = "#0db9d7" }
+title    = {}
+value    = { fg = "#9d7cd8" }
+selected = { bg = "#303031" }
+
+# Completion
+[completion]
+border   = { fg = "#0db9d7" }
+active   = { fg = "#ffffff", bg = "#303031" }
+inactive = { fg = "#ffffff" }
+
+# Tasks
+[tasks]
+border  = { fg = "#b7b7b9" }
+title   = {}
+hovered = { fg = "#ffffff", bg="#303031" }
+
+# Which
+[which]
+cols = 3
+mask            = { bg = "#000000" }
+cand            = { fg = "#7dcfff" }
+rest            = { fg = "#7aa2f7" }
+desc            = { fg = "#bb9af7" }
+separator       = "  "
+separator_style = { fg = "#42525b" }
+
+# Notify
+[notify]
+title_info  = { fg = "#0db9d7" }
+title_warn  = { fg = "#e0af68" }
+title_error = { fg = "#f7768e" }
+
+# Help
+[help]
+on      = { fg = "#9ece6a" }
+run     = { fg = "#bb9af7" }
+hovered = { bg = "#303031" }
+footer  = { fg = "#ffffff", bg = "#030303" }
+
+[filetype]
+
+rules = [
+	# Images
+	{ mime = "image/*", fg = "#e0af68" },
+
+	# Media
+	{ mime = "{audio,video}/*", fg = "#bb9af7" },
+
+	# Archives
+	{ mime = "application/*zip", fg = "#f7768e" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f7768e" },
+
+	# Documents
+	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#7dcfff" },
+
+	# Empty files
+	# { mime = "inode/x-empty", fg = "#f7768e" },
+
+	# Special files
+	{ name = "*", is = "orphan", bg = "#f7768e" },
+	{ name = "*", is = "exec"  , fg = "#9ece6a" },
+
+	# Fallback
+	{ name = "*/", fg = "#7aa2f7" }
+]
+    

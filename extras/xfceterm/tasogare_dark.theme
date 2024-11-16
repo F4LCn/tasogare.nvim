@@ -1,0 +1,9 @@
+[Scheme]
+Name="tasogare_dark"
+ColorBackground=#030303
+ColorForeground=#ffffff
+
+ColorSelectionBackground=#303031
+ColorSelection=#ffffff
+
+ColorPalette=#020202;#f7768e;#9ece6a;#e0af68;#7aa2f7;#bb9af7;#7dcfff;#dddddd;#010101;#f7768e;#9ece6a;#e0af68;#7aa2f7;#bb9af7;#7dcfff;#ffffff

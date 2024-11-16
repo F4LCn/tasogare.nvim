@@ -1,0 +1,26 @@
+{
+    "name": "Tokyo Night Light",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#474747",
+    "background-color": "#fdfdfd",
+    "palette": [
+        "#cacaca",
+        "#f52a65",
+        "#587539",
+        "#8c6c3e",
+        "#2e7de9",
+        "#9854f1",
+        "#007197",
+        "#5a5a5a",
+        "#fefefe",
+        "#f52a65",
+        "#587539",
+        "#8c6c3e",
+        "#2e7de9",
+        "#9854f1",
+        "#007197",
+        "#474747"
+    ]
+}
+  

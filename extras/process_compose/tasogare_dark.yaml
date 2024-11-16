@@ -1,0 +1,36 @@
+style:
+  name: tasogare_dark
+  body:
+    fgColor: '#ffffff'
+    bgColor: '#000000'
+    secondaryTextColor: '#dddddd'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#52525b'
+  stat_table:
+    keyFgColor: '#e0af68'
+    valueFgColor: '#ffffff'
+    logoColor: '#e0af68'
+  proc_table:
+    fgColor: '#7aa2f7'
+    fgWarning: '#e0af68'
+    fgPending: '#545c7e'
+    fgCompleted: '#9ece6a'
+    fgError: '#db4b4b'
+    headerFgColor: '#ffffff'
+  help:
+    fgColor: '#2ac3de'
+    keyColor: '#ffffff'
+    hlColor: '#9ece6a'
+    categoryFgColor: '#89ddff'
+  dialog:
+    fgColor: '#2ac3de'
+    bgColor: '#020202'
+    contrastBgColor: '#030303'
+    attentionBgColor: '#db4b4b'
+    buttonFgColor: '#020202'
+    buttonBgColor: '#09090b'
+    buttonFocusFgColor: '#020202'
+    buttonFocusBgColor: '#7aa2f7'
+    labelFgColor: '#e0af68'
+    fieldFgColor: '#020202'
+    fieldBgColor: '#394b70'

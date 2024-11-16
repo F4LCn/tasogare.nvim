@@ -1,0 +1,45 @@
+[colors]
+foreground = "#ffffff"
+background = "#030303"
+cursor_bg = "#ffffff"
+cursor_border = "#ffffff"
+cursor_fg = "#030303"
+selection_bg = "#303031"
+selection_fg = "#ffffff"
+split = "#7aa2f7"
+compose_cursor = "#ff9e64"
+scrollbar_thumb = "#09090b"
+
+ansi = ["#020202", "#ff9696", "#96be78", "#ffb987", "#61afe1", "#ff7eb6", "#50b4be", "#dddddd"]
+brights = ["#010101", "#ffabab", "#96d062", "#ffcbac", "#58befa", "#ff96c1", "#03c6d3", "#ffffff"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#000000"
+background = "#030303"
+
+[colors.tab_bar.active_tab]
+fg_color = "#000000"
+bg_color = "#7aa2f7"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#545c7e"
+bg_color = "#09090b"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#7aa2f7"
+bg_color = "#09090b"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#7aa2f7"
+bg_color = "#030303"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#7aa2f7"
+bg_color = "#030303"
+
+[metadata]
+aliases = []
+author = "falcon"
+name = "tasogare_dark"
