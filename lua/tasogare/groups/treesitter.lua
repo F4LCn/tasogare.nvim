@@ -19,10 +19,11 @@ function M.get(c, opts)
     ["@comment.note"]                 = { fg = c.hint },
     ["@comment.todo"]                 = { fg = c.todo },
     ["@comment.warning"]              = { fg = c.warning },
+    ["@error"]                        = { fg = c.error },
     ["@constant"]                     = "Constant",
     ["@constant.builtin"]             = "Special",
     ["@constant.macro"]               = "Define",
-    ["@constructor"]                  = { fg = c.color2 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    ["@constructor"]                  = "Type",
     ["@constructor.tsx"]              = { fg = c.color1 },
     ["@diff.delta"]                   = "DiffChange",
     ["@diff.minus"]                   = "DiffDelete",
@@ -33,17 +34,21 @@ function M.get(c, opts)
     ["@function.macro"]               = "@function",
     ["@function.method"]              = "@function",
     ["@function.method.call"]         = "@function.method",
+    ["@method"]                       = "@function.method",
     ["@keyword"]                      = { fg = c.color1, style = opts.styles.keywords }, -- For keywords that don't fall in previous categories.
     ["@keyword.conditional"]          = "Conditional",
+    ["@conditional"]                  = "Conditional",
     ["@keyword.coroutine"]            = "@keyword",
     ["@keyword.debug"]                = "Debug",
     ["@keyword.directive"]            = "PreProc",
     ["@keyword.directive.define"]     = "Define",
     ["@keyword.exception"]            = "Exception",
+    ["@exception"]                    = "@keyword.exception",
     ["@keyword.function"]             = { fg = c.color13, style = opts.styles.functions }, -- For keywords used to define a function.
     ["@keyword.import"]               = "Include",
     ["@keyword.operator"]             = "@operator",
     ["@keyword.repeat"]               = "Repeat",
+    ["@repeat"]                       = "Repeat",
     ["@keyword.return"]               = "@keyword",
     ["@keyword.storage"]              = "StorageClass",
     ["@label"]                        = { fg = c.color11 }, -- For labels: `label:` in C and `:label:` in Lua.
@@ -74,8 +79,10 @@ function M.get(c, opts)
     ["@none"]                         = {},
     ["@number"]                       = "Number",
     ["@number.float"]                 = "Float",
+    ["@float"]                        = "Float",
     ["@operator"]                     = { fg = c.color12 }, -- For any operator: `+`, but also `->` and `*` in C.
     ["@property"]                     = { fg = c.color14 },
+    ["@field"]                        = "@property",
     ["@punctuation.bracket"]          = { fg = c.color12 }, -- For brackets and parens.
     ["@punctuation.delimiter"]        = { fg = c.color12 }, -- For delimiters ie: `.`
     ["@punctuation.special"]          = { fg = c.color16 }, -- For special symbols (e.g. `{}` in string interpolation)
@@ -94,11 +101,16 @@ function M.get(c, opts)
     ["@type.builtin"]                 = { fg = Util.blend_bg(c.color2, 0.8) },
     ["@type.definition"]              = "Typedef",
     ["@type.qualifier"]               = "@keyword",
+    ["@type.storageClass"]            = "@keyword.storage",
+    ["@type.lifetime"]                = { fg = c.color4 },
     ["@variable"]                     = { fg = c.fg, style = opts.styles.variables }, -- Any variable name that does not have another highlight.
+    ["@variable.global"]              = "@variable",
     ["@variable.builtin"]             = { fg = c.color1 },                            -- Variable names that are defined by the languages, like `this` or `self`.
     ["@variable.member"]              = { fg = c.color14 },                           -- For fields.
     ["@variable.parameter"]           = { fg = c.color18 },                           -- For parameters of a function.
+    ["@parameter"]                    = "@variable.parameter",
     ["@variable.parameter.builtin"]   = { fg = Util.blend_fg(c.color1, 0.8) },        -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
+    ["@symbol"]                       = { fg = c.color2 },
   }
 
   for i, color in ipairs(c.rainbow) do
