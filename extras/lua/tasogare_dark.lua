@@ -145,18 +145,23 @@ local highlights = {
   ["@comment.warning"] = {
     fg = "#e88c00"
   },
+  ["@conditional"] = "Conditional",
   ["@constant"] = "Constant",
   ["@constant.builtin"] = "Special",
   ["@constant.macro"] = "Define",
-  ["@constructor"] = {
-    fg = "#e9b1ff"
-  },
+  ["@constructor"] = "Type",
   ["@constructor.tsx"] = {
     fg = "#94c4ff"
   },
   ["@diff.delta"] = "DiffChange",
   ["@diff.minus"] = "DiffDelete",
   ["@diff.plus"] = "DiffAdd",
+  ["@error"] = {
+    fg = "#db4b4b"
+  },
+  ["@exception"] = "@keyword.exception",
+  ["@field"] = "@property",
+  ["@float"] = "Float",
   ["@function"] = "Function",
   ["@function.builtin"] = "Special",
   ["@function.call"] = "@function",
@@ -184,6 +189,8 @@ local highlights = {
   ["@label"] = {
     fg = "#b7b7b7"
   },
+  ["@lsp.mod.builtin"] = {},
+  ["@lsp.mod.readonly"] = {},
   ["@lsp.mod.typeHint"] = "@type",
   ["@lsp.type.boolean"] = "@boolean",
   ["@lsp.type.builtinConstant"] = "@constant",
@@ -198,12 +205,11 @@ local highlights = {
   ["@lsp.type.formatSpecifier"] = "@markup.list",
   ["@lsp.type.function"] = "@function",
   ["@lsp.type.generic"] = "@variable",
-  ["@lsp.type.interface"] = {
-    fg = "#ffcf97"
-  },
+  ["@lsp.type.interface"] = "@interface",
   ["@lsp.type.keyword"] = "@keyword",
-  ["@lsp.type.lifetime"] = "@keyword.storage",
+  ["@lsp.type.lifetime"] = "@type.lifetime",
   ["@lsp.type.macro.rust"] = "@function.macro",
+  ["@lsp.type.magicFunction"] = "@function",
   ["@lsp.type.method"] = "@function",
   ["@lsp.type.namespace"] = "@namespace",
   ["@lsp.type.namespace.python"] = "@variable",
@@ -215,8 +221,8 @@ local highlights = {
   ["@lsp.type.selfTypeKeyword"] = "@variable.builtin",
   ["@lsp.type.string"] = "@string",
   ["@lsp.type.string.rust"] = "@string",
-  ["@lsp.type.struct"] = "Type",
-  ["@lsp.type.type"] = "Type",
+  ["@lsp.type.struct"] = "@type",
+  ["@lsp.type.type"] = "@type",
   ["@lsp.type.typeAlias"] = "@type.definition",
   ["@lsp.type.typeParameter"] = "@keyword",
   ["@lsp.type.unresolvedReference"] = {
@@ -235,15 +241,12 @@ local highlights = {
   ["@lsp.typemod.operator.injected"] = "@operator",
   ["@lsp.typemod.string.injected"] = "@string",
   ["@lsp.typemod.struct.defaultLibrary"] = "@type.builtin",
-  ["@lsp.typemod.type.defaultLibrary"] = {
-    fg = "#bb8ecd"
-  },
-  ["@lsp.typemod.typeAlias.defaultLibrary"] = {
-    fg = "#bb8ecd"
-  },
+  ["@lsp.typemod.type.defaultLibrary"] = "@type",
+  ["@lsp.typemod.typeAlias.defaultLibrary"] = "@type",
   ["@lsp.typemod.variable.callable"] = "@function",
   ["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
-  ["@lsp.typemod.variable.globalScope"] = "Identifier",
+  ["@lsp.typemod.variable.global"] = "@symbol",
+  ["@lsp.typemod.variable.globalScope"] = "@identifier",
   ["@lsp.typemod.variable.injected"] = "@variable",
   ["@lsp.typemod.variable.static"] = "@constant",
   ["@markup"] = "@none",
@@ -314,6 +317,7 @@ local highlights = {
   ["@markup.underline"] = {
     underline = true
   },
+  ["@method"] = "@function.method",
   ["@module"] = "Include",
   ["@module.builtin"] = {
     fg = "#94c4ff"
@@ -328,6 +332,7 @@ local highlights = {
   ["@operator"] = {
     fg = "#bed4e0"
   },
+  ["@parameter"] = "@variable.parameter",
   ["@property"] = {
     fg = "#ff9696"
   },
@@ -343,6 +348,7 @@ local highlights = {
   ["@punctuation.special.markdown"] = {
     fg = "#80ff80"
   },
+  ["@repeat"] = "Repeat",
   ["@string"] = "String",
   ["@string.documentation"] = {
     fg = "#ffc86e"
@@ -352,6 +358,9 @@ local highlights = {
   },
   ["@string.regexp"] = {
     fg = "#50b4be"
+  },
+  ["@symbol"] = {
+    fg = "#e9b1ff"
   },
   ["@tag"] = "Label",
   ["@tag.attribute"] = "@property",
@@ -370,13 +379,18 @@ local highlights = {
     fg = "#bb8ecd"
   },
   ["@type.definition"] = "Typedef",
+  ["@type.lifetime"] = {
+    fg = "#50b4be"
+  },
   ["@type.qualifier"] = "@keyword",
+  ["@type.storageClass"] = "@keyword.storage",
   ["@variable"] = {
     fg = "#ffffff"
   },
   ["@variable.builtin"] = {
     fg = "#94c4ff"
   },
+  ["@variable.global"] = "@variable",
   ["@variable.member"] = {
     fg = "#ff9696"
   },
