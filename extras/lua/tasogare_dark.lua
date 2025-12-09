@@ -6,7 +6,7 @@ local colors = {
   bg_float = "#000000",
   bg_highlight = "#09090b",
   bg_popup = "#000000",
-  bg_search = "#5378c8",
+  bg_search = "#3d59a1",
   bg_sidebar = "#000000",
   bg_statusline = "#030303",
   bg_visual = "#303031",
@@ -818,10 +818,12 @@ local highlights = {
     fg = "#96be78"
   },
   CopilotAnnotation = {
-    fg = "#010101"
+    fg = "#71717a",
+    italic = true
   },
   CopilotSuggestion = {
-    fg = "#010101"
+    fg = "#71717a",
+    italic = true
   },
   CurSearch = "IncSearch",
   Cursor = {
@@ -2165,7 +2167,7 @@ local highlights = {
     fg = "#e88c00"
   },
   Search = {
-    bg = "#5378c8",
+    bg = "#3d59a1",
     fg = "#ffffff"
   },
   SignColumn = {

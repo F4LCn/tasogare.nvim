@@ -55,7 +55,7 @@ function M.setup(opts)
       or colors.bg
 
   colors.bg_visual = Util.blend_bg(colors.gray7, 0.2)
-  colors.bg_search = colors.color28
+  colors.bg_search = colors.blue0
   colors.fg_sidebar = colors.fg_dark
   colors.fg_float = colors.fg
 

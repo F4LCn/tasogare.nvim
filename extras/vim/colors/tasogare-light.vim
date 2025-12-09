@@ -20,8 +20,8 @@ hi ColorColumn guibg=#cacaca
 hi Comment gui=italic guibg=NONE guifg=#7c7c84
 hi Conceal guibg=NONE guifg=#53646e
 hi Constant guibg=NONE guifg=#627d4d
-hi CopilotAnnotation guibg=NONE guifg=#fefefe
-hi CopilotSuggestion guibg=NONE guifg=#fefefe
+hi CopilotAnnotation gui=italic guibg=NONE guifg=#71717a
+hi CopilotSuggestion gui=italic guibg=NONE guifg=#71717a
 hi Cursor guibg=#474747 guifg=#fdfdfd
 hi CursorColumn guibg=#f8f8f8
 hi CursorIM guibg=#474747 guifg=#fdfdfd
@@ -199,7 +199,7 @@ hi PmenuThumb guibg=#9d9da3
 hi PreProc guibg=NONE guifg=#b25ccb
 hi Question guibg=NONE guifg=#4782a8
 hi QuickFixLine gui=bold guibg=#dbdbdf
-hi Search guibg=#4f72be guifg=#474747
+hi Search guibg=#7890dd guifg=#474747
 hi SignColumn guibg=#fdfdfd guifg=#9d9da3
 hi SignColumnSB guibg=#ebebeb guifg=#9d9da3
 hi Sneak guibg=#9854f1 guifg=#f8f8f8
