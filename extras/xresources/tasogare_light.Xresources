@@ -1,23 +1,23 @@
 ! tasogare colors for Xresources
 
-*background: #fdfdfd
+*background: #ffffff
 *foreground: #474747
 
-*color0: #cacaca
-*color1: #f52a65
-*color2: #587539
-*color3: #8c6c3e
-*color4: #2e7de9
-*color5: #9854f1
-*color6: #007197
+*color0: #cccccc
+*color1: #f12465
+*color2: #56713a
+*color3: #85683f
+*color4: #277add
+*color5: #9a4af3
+*color6: #006d8f
 *color7: #5a5a5a
 
 *color8: #fefefe
-*color9: #f52a65
-*color10: #587539
-*color11: #8c6c3e
-*color12: #2e7de9
-*color13: #9854f1
-*color14: #007197
+*color9: #f12465
+*color10: #56713a
+*color11: #85683f
+*color12: #277add
+*color13: #9a4af3
+*color14: #006d8f
 *color15: #474747
  

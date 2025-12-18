@@ -5,18 +5,18 @@
 themes {
     tasogare_light {
         fg "#474747"
-        bg "#f8f8f8"
+        bg "#f7f7f7"
         // Black should match the terminal background color
         // This ensures the top and bottom bars are transparent
-        black "#fdfdfd"
-        red "#f52a65"
-        green "#587539"
-        yellow "#8c6c3e"
-        blue "#2e7de9"
-        magenta "#9854f1"
-        cyan "#007197"
+        black "#ffffff"
+        red "#f12465"
+        green "#56713a"
+        yellow "#85683f"
+        blue "#277add"
+        magenta "#9a4af3"
+        cyan "#006d8f"
         white "#5a5a5a"
-        orange "#b15c00"
+        orange "#aa5b00"
     }
 }
 

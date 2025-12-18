@@ -7,11 +7,11 @@
     frame_color = "#ffffff"
 
 [urgency_normal]
-    background = "#030303"
+    background = "#000000"
     foreground = "#ffffff"
     frame_color = "#ffffff"
 
 [urgency_critical]
-    background = "#09090b"
+    background = "#0a0a0d"
     foreground = "#db4b4b"
     frame_color = "#db4b4b"

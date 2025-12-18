@@ -1,9 +1,9 @@
 [Scheme]
 Name="tasogare_light"
-ColorBackground=#fdfdfd
+ColorBackground=#ffffff
 ColorForeground=#474747
 
-ColorSelectionBackground=#dbdbdf
+ColorSelectionBackground=#cccccf
 ColorSelection=#474747
 
-ColorPalette=#cacaca;#f52a65;#587539;#8c6c3e;#2e7de9;#9854f1;#007197;#5a5a5a;#fefefe;#f52a65;#587539;#8c6c3e;#2e7de9;#9854f1;#007197;#474747
+ColorPalette=#cccccc;#f12465;#56713a;#85683f;#277add;#9a4af3;#006d8f;#5a5a5a;#fefefe;#f12465;#56713a;#85683f;#277add;#9a4af3;#006d8f;#474747

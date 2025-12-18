@@ -1,14 +1,14 @@
     # tasogare Color Palette
     set -l foreground ffffff
-    set -l selection 303031
+    set -l selection 2b2b30
     set -l comment 42525b
-    set -l red f7768e
-    set -l orange ff9e64
-    set -l yellow e0af68
-    set -l green 9ece6a
+    set -l red f97e96
+    set -l orange ffa56e
+    set -l yellow e6b672
+    set -l green a4d472
     set -l purple 9d7cd8
-    set -l cyan 7dcfff
-    set -l pink bb9af7
+    set -l cyan 85d5ff
+    set -l pink c1a0f9
 
     # Syntax Highlighting Colors
     set -g fish_color_normal $foreground

@@ -1,39 +1,39 @@
 # tasogare Alacritty Colors
 # Default colors
 [colors.primary]
-background = '#030303'
+background = '#000000'
 foreground = '#ffffff'
 
 #[colors.cursor]
 #cursor = '#ffffff'
-#text = '#030303'
+#text = '#000000'
 
 # Normal colors
 [colors.normal]
-black = '#020202'
-red = '#f7768e'
-green = '#9ece6a'
-yellow = '#e0af68'
-blue = '#7aa2f7'
-magenta = '#bb9af7'
-cyan = '#7dcfff'
+black = '#000000'
+red = '#f97e96'
+green = '#a4d472'
+yellow = '#e6b672'
+blue = '#82aaf9'
+magenta = '#c1a0f9'
+cyan = '#85d5ff'
 white = '#dddddd'
 
 # Bright colors
 [colors.bright]
 black = '#010101'
-red = '#f7768e'
-green = '#9ece6a'
-yellow = '#e0af68'
-blue = '#7aa2f7'
-magenta = '#bb9af7'
-cyan = '#7dcfff'
+red = '#f97e96'
+green = '#a4d472'
+yellow = '#e6b672'
+blue = '#82aaf9'
+magenta = '#c1a0f9'
+cyan = '#85d5ff'
 white = '#ffffff'
 
 # Indexed Colors
 [[colors.indexed_colors]]
 index = 16
-color = '#ff9e64'
+color = '#ffa56e'
 
 [[colors.indexed_colors]]
 index = 17

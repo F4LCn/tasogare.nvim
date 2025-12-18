@@ -1,14 +1,14 @@
 /* Copy the content into the `CSS for Vimium UI` textarea field on the vimium options page  */
 
 :root {
-  --vimium-blue: #2e7de9;
-  --vimium-green: #587539;
+  --vimium-blue: #277add;
+  --vimium-green: #56713a;
   --vimium-fg: #474747;
   --vimium-fg-dark: #5a5a5a;
   --vimium-border: #b3b3b7;
-  --vimium-border-highlight: #777784;
-  --vimium-bg: #fdfdfd;
-  --vimium-bg-highlight: #f8f8f8;
+  --vimium-border-highlight: #afafb6;
+  --vimium-bg: #ffffff;
+  --vimium-bg-highlight: #f7f7f7;
 }
 
 #vimiumHintMarkerContainer div.internalVimiumHintMarker,

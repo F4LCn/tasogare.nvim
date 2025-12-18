@@ -1,19 +1,19 @@
 module.exports =  {
   plain: {
     color: "#ffffff",
-    backgroundColor: "#030303",
+    backgroundColor: "#000000",
   },
   styles: [
     {
       types: ["prolog", "builtin"],
       style: {
-        color: "#f7768e",
+        color: "#f97e96",
       },
     },
     {
       types: ["function"],
       style: {
-        color: "#7aa2f7",
+        color: "#82aaf9",
       },
     },
     {
@@ -25,13 +25,13 @@ module.exports =  {
     {
       types: ["punctuation"],
       style: {
-        color: "#bb9af7",
+        color: "#c1a0f9",
       },
     },
     {
       types: ["string", "char", "tag", "selector"],
       style: {
-        color: "#9ece6a",
+        color: "#a4d472",
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports =  {
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#ff9e64",
+        color: "#ffa56e",
       },
     },
     {

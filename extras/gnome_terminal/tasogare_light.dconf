@@ -5,14 +5,14 @@
 # 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < tasogare_light.dconf`
 
 [:<PROFILE_UUID>]
-background-color='rgb(253, 253, 253)'
+background-color='rgb(255, 255, 255)'
 cursor-background-color='rgb(71, 71, 71)'
 cursor-colors-set=true
-cursor-foreground-color='rgb(253, 253, 253)'
+cursor-foreground-color='rgb(255, 255, 255)'
 foreground-color='rgb(71, 71, 71)'
 highlight-background-color='rgb(71, 71, 71)'
 highlight-colors-set=true
-highlight-foreground-color='rgb(253, 253, 253)'
-palette=['rgb(254, 254, 254)', 'rgb(245, 42, 101)', 'rgb(88, 117, 57)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(71, 71, 71)', 'rgb(254, 254, 254)', 'rgb(245, 42, 101)', 'rgb(88, 117, 57)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(71, 71, 71)']
+highlight-foreground-color='rgb(255, 255, 255)'
+palette=['rgb(254, 254, 254)', 'rgb(241, 36, 101)', 'rgb(86, 113, 58)', 'rgb(133, 104, 63)', 'rgb(39, 122, 221)', 'rgb(154, 74, 243)', 'rgb(0, 109, 143)', 'rgb(71, 71, 71)', 'rgb(254, 254, 254)', 'rgb(241, 36, 101)', 'rgb(86, 113, 58)', 'rgb(133, 104, 63)', 'rgb(39, 122, 221)', 'rgb(154, 74, 243)', 'rgb(0, 109, 143)', 'rgb(71, 71, 71)']
 use-theme-colors=false
 visible-name='Tokyo Night Light'

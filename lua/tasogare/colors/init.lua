@@ -38,23 +38,23 @@ function M.setup(opts)
 
   colors.git.ignore = colors.dark3
   colors.black = Util.blend_bg(colors.bg, 0.8, "#000000")
-  colors.border_highlight = Util.blend_bg(colors.gray7, 0.8)
+  colors.border_highlight = Util.blend_bg(colors.gray6, 0.5)
   colors.border = colors.gray2
 
   -- Popups and statusline always get a dark background
-  colors.bg_popup = colors.bg_dark
+  colors.bg_popup = "#020202"
   colors.bg_statusline = colors.bg
 
   -- Sidebar and Floats are configurable
   colors.bg_sidebar = opts.styles.sidebars == "transparent" and colors.none
-      or opts.styles.sidebars == "dark" and colors.bg_dark
+      or opts.styles.sidebars == "dark" and colors.bg_popup
       or colors.bg
 
   colors.bg_float = opts.styles.floats == "transparent" and colors.none
-      or opts.styles.floats == "dark" and colors.bg_dark
+      or opts.styles.floats == "dark" and colors.bg_popup
       or colors.bg
 
-  colors.bg_visual = Util.blend_bg(colors.gray7, 0.2)
+  colors.bg_visual = Util.blend_bg(colors.gray3, 0.5)
   colors.bg_search = colors.blue0
   colors.fg_sidebar = colors.fg_dark
   colors.fg_float = colors.fg

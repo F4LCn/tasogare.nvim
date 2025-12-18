@@ -2,25 +2,25 @@
 
     # Syntax Highlighting Colors
     fish_color_normal 474747
-    fish_color_command 007197
-    fish_color_keyword 9854f1
-    fish_color_quote 8c6c3e
+    fish_color_command 006d8f
+    fish_color_keyword 9a4af3
+    fish_color_quote 85683f
     fish_color_redirection 474747
-    fish_color_end b15c00
-    fish_color_option 9854f1
-    fish_color_error f52a65
+    fish_color_end aa5b00
+    fish_color_option 9a4af3
+    fish_color_error f12465
     fish_color_param 7847bd
     fish_color_comment 87a5b6
-    fish_color_selection --background=dbdbdf
-    fish_color_search_match --background=dbdbdf
-    fish_color_operator 587539
-    fish_color_escape 9854f1
+    fish_color_selection --background=cccccf
+    fish_color_search_match --background=cccccf
+    fish_color_operator 56713a
+    fish_color_escape 9a4af3
     fish_color_autosuggestion 87a5b6
 
     # Completion Pager Colors
     fish_pager_color_progress 87a5b6
-    fish_pager_color_prefix 007197
+    fish_pager_color_prefix 006d8f
     fish_pager_color_completion 474747
     fish_pager_color_description 87a5b6
-    fish_pager_color_selected_background --background=dbdbdf
+    fish_pager_color_selected_background --background=cccccf
   
